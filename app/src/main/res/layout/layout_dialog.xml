@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittitle"
+        android:hint="Title"
+        android:padding="15dp"
+        />
+
+
+    <EditText
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_hr"
+        android:hint="set hr"
+        android:inputType="number"
+        android:layout_below="@id/edittitle"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_min"
+        android:hint="set min"
+        android:layout_below="@id/edittitle"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/edit_hr"
+        android:padding="15dp"/>
+
+
+
+</RelativeLayout>
